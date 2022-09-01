@@ -152,7 +152,7 @@ display: none;
 }
 
 .ret{
-    width: 240px;
+    width: 350px;
     margin-left: 2vh;
     margin-top: 80vh;
 }
@@ -180,7 +180,7 @@ flex-direction: column;
 }
 .btn{
     margin-top: 50vh;
-    margin-left: 15vh;
+    margin-left: 10vh;
     width: 254px;
     height: 45px;
 }
