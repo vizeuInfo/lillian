@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+.sect-1{
+
+}
+
+header{
+ padding: 20px 10px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ color: #fff;
+}
+.logo-c{
+display: block;
+color: #1E93C5;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 10px;
+}
+
+a:hover{
+color: #1E93C5;
+transition: all 0.4s;
+}
+/*Inicio do Main*/
+.main-1{
+    padding: 10px;
+    display: flex;
+    margin-top: 20vh;
+    justify-content: space-between;
+}
+
+.span{
+    font-size: 37px;
+}
+
+h3{
+    color: #1E93C5;
+    max-width: 400px;
+    margin-top: -2vh;
+}
+
+.form{
+    margin-top: -20vh;
+}
+
+.sect-2{
+    margin-top: vh;
+    display: flex;
+flex-direction: row;
+}
+
+.main-2{
+max-height: 720px;
+}
+
+.ret{
+    margin-top: 35vh;
+    padding: 10px;
+    width: 634px;
+    height: 417px;
+}
+
+.plant{
+ position: absolute;
+ margin-top: 80vh;
+ margin-left: -20vh;
+}
+
+.span2{
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 15vh;
+    font-size: 37px;
+    max-width: 400px;
+}
+
+.text{
+    position: absolute;
+    margin-top: 65vh;
+    margin-left: 15vh;
+}
+
+.sect-3{
+margin-top: 50vh;
+}
+.main3{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.art3{
+    justify-content: center;
+text-align: center;
+margin-top: 14vh;
+padding: 30px;
+}
+
+.btn{
+border: 1px solid #1E93C5;
+border-radius: 20px;
+width: 315px;
+height: 66px;
+background: transparent;
+color: #fff;
+font-size: 25px;
+margin-left: 15vh;
+position: absolute;
+margin-top: 45vh;
+cursor: pointer;
+}
+
+.btn:hover{
+background-color: #1E93C5;
+transition: all 0.4s;
+color: #1E1E1E;
+}
+
+@media screen and (max-width: 992px){
+header{
+    
+}
+
+body{
+}
+.main-1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.form{
+display: none;
+}
+
+.sect-2{
+    align-items: center;
+    
+}
+
+.plant{
+    margin-left: -32vh;
+    margin-top: 120vh;
+}
+
+.ret{
+    width: 440px;
+    margin-left: 2vh;
+    margin-top: 80vh;
+}
+.text{
+    margin-top: 110vh;
+}
+.span2{
+    margin-top: 90vh;
+}
+
+.sect-3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.spectre{
+  display: none;
+}
+.btn{
+    margin-top: 50vh;
+    margin-left: 15vh;
+    width: 254px;
+    height: 45px;
+}
+}
