@@ -130,11 +130,8 @@ color: #1E1E1E;
 }
 
 @media screen and (max-width: 992px){
-header{
-    
-}
-
 body{
+overflow-x: hidden;
 }
 .main-1{
     align-items: center;
@@ -151,8 +148,7 @@ display: none;
 }
 
 .plant{
-    margin-left: -32vh;
-    margin-top: 120vh;
+display: none;
 }
 
 .ret{
